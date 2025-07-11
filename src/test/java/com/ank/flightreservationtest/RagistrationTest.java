@@ -20,6 +20,7 @@ public class RagistrationTest {
     public void setDriver(){
 
       WebDriverManager.chromedriver().setup();
+      
       this.driver=new ChromeDriver();
 
     }
@@ -33,8 +34,8 @@ public class RagistrationTest {
         Assert.assertTrue(registrationPage.isAt());
 
         registrationPage.enterUserDetails("test1", "test2");
-        //registrationPage.enterUserCredentials(testData.email(), testData.password());
-        //registrationPage.enterAddress(testData.street(), testData.city(), testData.zip());
+       
+        //I have added commentsnew 
         registrationPage.register();
 
 
