@@ -1,2 +1,5 @@
 com\ank\pages\flightreservation\RegistrationPage.class
+com\ank\pages\flightreservation\FlightSearchPage.class
+com\ank\pages\flightreservation\FlightBookingConfirmationPage.class
+com\ank\pages\flightreservation\RegistrationConfirmationPage.class
 com\ank\CommonPage.class
