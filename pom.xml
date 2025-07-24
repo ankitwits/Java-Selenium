@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.vinsguru</groupId>
-    <artifactId>selenium-docker</artifactId>
+    <groupId>com.ank</groupId>
+    <artifactId>javaselenium</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
@@ -59,7 +59,7 @@
         </dependency>
     </dependencies>
     <build>
-        <finalName>selenium-docker</finalName>
+        <finalName>javaselenium</finalName>
         <plugins>
             <!-- To compile the source code using specific java version. also to force IDE to change the settings -->
             <plugin>
@@ -80,7 +80,7 @@
                         <browser>chrome</browser>
                     </systemPropertyVariables>
                     <suiteXmlFiles>
-                        <file>test-suite.xml</file>
+                        <file>flighreservationTestsuites.xml</file>
                     </suiteXmlFiles>
                     <threadCount>1</threadCount>
                     <reportsDirectory>target/test-output</reportsDirectory>
