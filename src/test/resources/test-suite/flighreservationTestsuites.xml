@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="flighreservationTestsuites">
+  <test name="testMode">
+        <parameter name="firstName" value="testname8900" />
+        <parameter name="lastName" value="testlastname" />
+        <classes>
+            <class name= "com.ank.flightreservationtest.ReservationTest"/>
+        </classes>
+    </test>
+   
+</suite>

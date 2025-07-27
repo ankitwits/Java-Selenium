@@ -1,5 +1,7 @@
 version: "3"
 services:
- squareroot:
-      image: ankitdocker/hello
+ nginx:
+      image: nginx
+      ports:
+      - 80:80
  
