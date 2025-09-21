@@ -1,0 +1,8 @@
+<confihuration>
+    <appender> 
+    </appender>
+    <root>
+    <appender-ref="STDOUT">
+    </root level="Info">
+
+</configuration>  
